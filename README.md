@@ -32,6 +32,7 @@ Anaconda - Python 3.7
 ### Register No:
 
 ## i) Write the frame as JPG file
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while (True):
@@ -40,9 +41,6 @@ while (True):
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
-
-         OR
 
 import cv2
 
@@ -57,8 +55,9 @@ while frame_count < max_frames:
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
+```
 ## ii) Display the video
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while(True):
@@ -69,9 +68,10 @@ while(True):
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
+```
 
 ## iii) Display the video by resizing the window
+```
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
@@ -90,12 +90,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
+```
 ## iv) Rotate and display the video
+```
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
